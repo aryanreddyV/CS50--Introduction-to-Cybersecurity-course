@@ -1,15 +1,32 @@
 WEEK 0:Securing Accounts
 from Harvard's CS50 Introduction to Cybersecurity course
 
-SUMMARY: How to secure accounts and their passwords
-         Account security fundamentals, layered defenses, and practical steps to protect and recover accounts.
+SUMMARY: 
+How to secure accounts and their passwords, Account security fundamentals, layered defenses, and practical steps to protect and recover accounts.
 
-Skill concepts learnt:
+CONCEPTS LEARNT:
 -Password Hygiene --- create long and unique passwords (upto 8 or more characters in preferable-including numbers of special letters and maybe even uppercase or lowercase letters) to prevent risk of getting hacked.
--Password Managers --- Install and run password managers for maximum safety (they allow you to directly log in without using password, and also prevent you from fake websites and application).
--Multi factor Authentication --- This adds an extra layer of defense and protection.
--Phishing awareness --- Phishing attacks trick users with fake emails and websites (always verify sender and links).
--Account Recovery --- use seperate accounts for user/admin vs. daily use to reduce risk.
+
+-Password Managers --- Install and run password managers for maximum safety (they allow you to directly log in without using password, and also prevent you from fake websites and application). This reduces the risk
+                       for getting the passwords exposed. One and only con for this password manager is that, itself needs one and only password to store all the usernames with passowrds.
+
+-Multi factor Authentication --- This is a security method that requires to prove your identity by using two or more different types of evidences, not just a password. MFA adds an extra layer of defense and
+                                 protection.Which means that even when your password is stolen, your account stays protected.
+                                 There are 3 factor types in MFA which are-
+                                 1. Knowledge: (something which you know)-example is "Password"
+                                 2. Possesion: (something which you have)-example is "Phone"or "card"
+                                 3. Inherence: (something which you are) -example is "Biometrics-like face, thumbprint, Iris recognition, voice recognition"
+
+-Credential stuffing --- This is a type of method adversaries use to get access to our accounts. Say they get credentials of one of your accounts, he assumes the probability that you might have used the same 
+                         credentials for other different websites. So he tries the credentials on all possible websites to gain access to all your other accounts too. To reduce the risk of this scenario happening, 
+                         use different credentials for different websites or applications.
+
+-Phishing attacks --- Phishing attacks trick users with fake emails and websites (always verify sender and links). They rely on deception and human error rater than using hacking systems directly. They are a type 
+                      of Social Engineering. They are fake sources which pretend to be real/trusted sources. Example- Email phishing--they are fake emails pretending to be real emails from officials or known source
+                      They might send malware through links or attachments where have to provide our credentials, which is basically unknowingly installing malware into our s
+
+-Account Recovery --- It is a process of regaining access of an account if you forget your password, lose access to your device, or get locked out. It involves verification of your identity through backup option 
+                      like recovery email, phone number, OTP(one-time password) or even security question.
 
 ACTIONS COMPLETED: 
 --> Understood the lecture about Securing accounts
