@@ -1,13 +1,8 @@
 WEEK 0:Securing Accounts
 from Harvard's CS50 Introduction to Cybersecurity course
 
-ACTIONS COMPLETED: 
---> Understood the lecture about Securing accounts
---> Understood and learnt the complete basic concept of Securing Accounts
---> Completed the assignment 0 for the Week 0. Which is for Securing Accounts
-
-SUMMARY of learnt concepts:
-Account security fundamentals, layered defenses, and practical steps to protect and recover accounts.
+SUMMARY: How to secure accounts and their passwords
+         Account security fundamentals, layered defenses, and practical steps to protect and recover accounts.
 
 Skill concepts learnt:
 -Password Hygiene --- create long and unique passwords (upto 8 or more characters in preferable-including numbers of special letters and maybe even uppercase or lowercase letters) to prevent risk of getting hacked.
@@ -15,6 +10,15 @@ Skill concepts learnt:
 -Multi factor Authentication --- This adds an extra layer of defense and protection.
 -Phishing awareness --- Phishing attacks trick users with fake emails and websites (always verify sender and links).
 -Account Recovery --- use seperate accounts for user/admin vs. daily use to reduce risk.
+
+ACTIONS COMPLETED: 
+--> Understood the lecture about Securing accounts
+--> Understood and learnt the complete basic concept of Securing Accounts
+--> Completed the assignment 0 for the Week 0. Which is for Securing Accounts
+--> Uploaded the assigment 0 submission proof in the image folder in this repository
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
