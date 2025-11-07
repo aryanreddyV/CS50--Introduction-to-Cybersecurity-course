@@ -6,10 +6,20 @@ How to secure accounts and their passwords, Account security fundamentals, layer
 
 CONCEPTS LEARNT:
 -Password Hygiene --- create long and unique passwords (upto 8 or more characters in preferable-including numbers of special letters and maybe even uppercase or lowercase letters) to prevent risk of getting 
-                      hacked.
+                      attacked. Long passwords or even unique passwords will surely benefit by decreasing the risk of getting attacked and increasing the effort for the adversary to succesfully attack our 
+                      account. Eventually the adversary may lose interest because of the time and effort needed to crack it.
+
+-Brute force attck--- A brute force attack is a cybersecurity method where attackers systematically try every possible combination of usernames, passwords, or encryption keys to gain unauthorized access. 
+                      These attacks rely on automation, using scripts to rapidly attempt a high volume of guesses until the correct combination is found. They are a simple but effective tactic, though 
+                      complex passwords significantly increase the time needed for a successful attack. 
+                       Some of the Defence mechanisms:
+                     -Strong passwords-- the passwords shall be long and unique, so that it takes for time(maybe even years/decades/centuries if the password is very strong) and effort for a brute force 
+                                        attack. Eventually the adversary most probably loses interest because of the time and effort needed if the password is strong.
+                     -Multi factor Authentication-- Requires secondary form of verification in addition to a password. This minimizes the risk of the adversary to succesfully attack us.
 
 -Password Managers --- Install and run password managers for maximum safety (they allow you to directly log in without using password, and also prevent you from fake websites and application). 
-                       This reduces the risk for getting the passwords exposed. One and only con for this password manager is that, itself needs one and only password to store all the usernames with passowrds.
+                       This reduces the risk for getting the passwords exposed. One and only con for this password manager is that, itself needs one and only password to store all the usernames with 
+                       passowords.
 
 -Multi factor Authentication --- This is a security method that requires to prove your identity by using two or more different types of evidences, not just a password. MFA adds an extra layer of defense and
                                  protection.Which means that even when your password is stolen, your account stays protected.
