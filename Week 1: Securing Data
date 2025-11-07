@@ -14,6 +14,16 @@ Concepts learnt:
                    hashes which the adversary might have already converted. Here to have a rainbow table, he must have a lot of hard-drives which contain the information and also a lot of wealth and effort
                    ( effort he must have done by converting the each possible passwords to their hashes).
 
+-Salting--- It is a method where teh salt value is added to a password, and it creates a different hash value than the hash value of just the password. 
+            So basically- salt value + password--> hash value is not equal to password--> hash value. So this Salt is a modifier the hash value when the salt input is added to the password input. 
+            For example, say two usernames David and Daisy have same passwords. Here we can conclude that they will also have same hash values. So there is a risk that if one account gets hacked, the other one
+            with the same password can also get hacked if the adversary wanted to. So to prevent this, Salt input shall be added to the password input. So say that David's salt input in 100 and Daisy's input 
+            is 99, boht of their hash values will be completely different. 
+
+
+            
+            
+
 
 
 
