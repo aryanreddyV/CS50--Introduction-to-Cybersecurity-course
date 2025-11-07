@@ -2,7 +2,10 @@ WEEK 0:Securing Accounts
 from Harvard's CS50 Introduction to Cybersecurity course
 
 SUMMARY: 
-How to secure accounts and their passwords, Account security fundamentals, layered defenses, and practical steps to protect and recover accounts.
+How to secure accounts and their passwords
+Account security fundamentals
+layered defenses
+practical steps to protect and recover accounts
 
 CONCEPTS LEARNT:
 -Password Hygiene --- create long and unique passwords (upto 8 or more characters in preferable-including numbers of special letters and maybe even uppercase or lowercase letters) to prevent risk of getting 
