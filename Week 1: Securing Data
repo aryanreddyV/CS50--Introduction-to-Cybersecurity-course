@@ -21,6 +21,24 @@ from Harvard's CS50 Introduction to Cybersecurity course
             is 99, boht of their hash values will be completely different. The salt values are automatically given by the server itself. This ensures that even though David and Daisy have same passwords,
             there is no way that the adversary will know even if he was looking into it.
 
+-Cryptography---The study of securing data
+     -Coding -- This is referred to as an secret code, not an software program. This can be information of plaintext which is converted to something which makes absolutely no sense, but makes sense for the
+                senders and the real receivers. The code can make no sense for if someone intercepted the code if they do not know how to crack the meaning of the code. 
+                example: Enigma machine for Morse code which was used in the WORLD WAR II.
+     -Encode -- This is the process where the information is converted to a code, which cannot mean the information directly, but it needs to be the information indirectly. Encoding means that converting 
+                the information to a code.
+                example: Using Morse code
+     -Decoding -- This is a method to crack the meaning of the code. Which basically means reverse-code. Converting code information back to its original.
+                  example: Barcode Scanners- When an item's barcode is scanned at a retail store, the scanner decodes the black and white lines into a numerical code. This code is then used by the 
+                           store's system to identify the product, retrieve its price, and update inventory levels.
+
+     -Cipher -- It is an algorithm which is used for converting an readable information to an unreadable information.
+     -Encipher -- It is the process of converting plaintext to ciphertext.
+                  example: The Enigma machine used in WORLD WAR II by Nazis could cipher
+     -Decipher --The action of converting the scrambled ciphertext back into plaintext. 
+                example: The Enigma machine could also decipher
+     
+     
 
             
             
