@@ -7,7 +7,8 @@ Concepts learnt:
 -Hashing---An account's password is converted to hash( completely unidentical to the password written by the user) and stored in the website's database. It is hard for an adversary to perform an attack Credential stuffing.
            It is stored(password converted to hash) in the website's database when the user creates an account for the first time. Next time the user tries to log in again with the same password, the website converts the 
            password to hash using the same process when the user created the account and then compares the hash to the stored hash in their database with the respective username. This reduces the risk of adversaries to 
-           attack our account.
+           attack our account. Using this method raises the bar for protection and lowers the bar for risk, but its not guarenteed that the adversary cannot get acces to your account. This increases the work, energy and 
+           time for the adversary so that there are chances that he might lose interest in our account.
 
 
 
