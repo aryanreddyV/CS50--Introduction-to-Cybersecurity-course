@@ -1,9 +1,9 @@
-WEEK 1: Securing Data
+#WEEK 1: Securing Data
 from Harvard's CS50 Introduction to Cybersecurity course
 
-SUMMARY:
+#SUMMARY:
 
-Concepts learnt:
+#Concepts learnt:
 -Hashing---An account's password is converted to hash( completely unidentical to the password written by the user) and stored in the website's database. It is hard for an adversary to perform an attack Credential 
            stuffing.It is stored(password converted to hash) in the website's database when the user creates an account for the first time. Next time the user tries to log in again with the same password, the 
            website converts the password to hash using the same process when the user created the account and then compares the hash to the stored hash in their database with the respective username. This reduces 
@@ -18,7 +18,8 @@ Concepts learnt:
             So basically- salt value + password--> hash value is not equal to password--> hash value. So this Salt is a modifier the hash value when the salt input is added to the password input. 
             For example, say two usernames David and Daisy have same passwords. Here we can conclude that they will also have same hash values. So there is a risk that if one account gets hacked, the other one
             with the same password can also get hacked if the adversary wanted to. So to prevent this, Salt input shall be added to the password input. So say that David's salt input in 100 and Daisy's input 
-            is 99, boht of their hash values will be completely different. 
+            is 99, boht of their hash values will be completely different. The salt values are automatically given by the server itself. This ensures that even though David and Daisy have same passwords,
+            there is no way that the adversary will know even if he was looking into it.
 
 
             
