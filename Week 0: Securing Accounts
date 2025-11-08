@@ -1,13 +1,14 @@
-WEEK 0:Securing Accounts
+#WEEK 0:Securing Accounts
 from Harvard's CS50 Introduction to Cybersecurity course
 
-SUMMARY: 
+#SUMMARY: 
 How to secure accounts and their passwords
 Account security fundamentals
 layered defenses
 practical steps to protect and recover accounts
 
-CONCEPTS LEARNT:
+
+#CONCEPTS LEARNT:
 -Password Hygiene --- create long and unique passwords (upto 8 or more characters in preferable-including numbers of special letters and maybe even uppercase or lowercase letters) to prevent risk of getting 
                       attacked. Long passwords or even unique passwords will surely benefit by decreasing the risk of getting attacked and increasing the effort for the adversary to succesfully attack our 
                       account. Eventually the adversary may lose interest because of the time and effort needed to crack it.
@@ -42,7 +43,7 @@ CONCEPTS LEARNT:
 -Account Recovery --- It is a process of regaining access of an account if you forget your password, lose access to your device, or get locked out. It involves verification of your identity through backup 
                       option like recovery email, phone number, OTP(one-time password) or even security question.
 
-ACTIONS COMPLETED: 
+#ACTIONS COMPLETED: 
 --> Understood the lecture about Securing accounts
 --> Understood and learnt the complete basic concept of Securing Accounts
 --> Completed the assignment 0 for the Week 0. Which is for Securing Accounts
