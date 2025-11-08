@@ -48,6 +48,22 @@ from Harvard's CS50 Introduction to Cybersecurity course
 
 -Digital Signatures --- Lets say we have a message (which is some informaation which you want to sign in it) as an input, you convert them to hash values. Now we take the computed hash value and a 
                         private key as inputs, the output will be known as the "Digital Signature".     
+
+-Passkeys --- Passkeys are a highely secured replacement of the traditional passwords that allow you to sign in through applications and websites with your biometric data.
+              When you a create a passkey for a website, it also creates a private key for you device only and a public key which is stored in the website system. 
+
+-Encryption in Transit --- For instance, lets say there is a user named Alan with a secure connection to an website. Lets say gmail. Another user named Bobby has a secure connection to gmail too.
+                           But that does not mean neccessarily that Alan has a secure connection with bob, because Security doe not work in transitivity.
+
+-Deletion --- If we delete information or a file say from MSWORD document or an excel sheet, the deleted information goes to the Recycle bin or Trash can. It doesnt not mean that the information is
+              completely deleted, its location is forgotten by the system. So the bits of 0's and 1's can be reused by other files if we create. This is not the most secure way, because; if we 
+              delete information, then the system has free 0's and 1's. The new files will use the free bits. But it is not guarenteed that all of the bits are used. The unused or leftout bits 
+              might have some information which you have deleted. If we want to reduce the risk, then we shall change the bits into a random unrecogmisable pattern.
+
+-Ransomware --- Ransomware is a type of malware where an adversary encrypts all the data/systems from a victim and demands a ransom in exchange for restoring the access to the data/system.
+
+
+
      
 
             
