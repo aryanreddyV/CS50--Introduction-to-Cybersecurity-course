@@ -2,6 +2,9 @@
 from Harvard's CS50 Introduction to Cybersecurity course
 
 #SUMMARY:
+How to secure data
+Concepts of defenses and techniques
+
 
 #Concepts learnt:
 -Hashing---An account's password is converted to hash( completely unidentical to the password written by the user) and stored in the website's database. It is hard for an adversary to perform an attack Credential 
@@ -62,6 +65,11 @@ from Harvard's CS50 Introduction to Cybersecurity course
 
 -Ransomware --- Ransomware is a type of malware where an adversary encrypts all the data/systems from a victim and demands a ransom in exchange for restoring the access to the data/system.
 
+#ACTIONS COMPLETED:
+-Understood the lecture in the course about Securing Data
+-Understood the concepts of how to secure data, applications and defences.
+-Completed Assignment 1 from the WEEK 1: Securing Data
+-Uploaded the Assignment submission proof to the images folder in this repository. 
 
 
      
