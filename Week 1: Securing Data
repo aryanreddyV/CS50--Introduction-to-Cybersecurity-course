@@ -37,6 +37,12 @@ from Harvard's CS50 Introduction to Cybersecurity course
                   example: The Enigma machine used in WORLD WAR II by Nazis could cipher
      -Decipher --The action of converting the scrambled ciphertext back into plaintext. 
                 example: The Enigma machine could also decipher
+
+     -Private/symmetric key cryptography -- The key is shared secret that only the sender and the receiver must have in advance. 
+     -Public/Asymmetric key cryptography -- The key is shared with the public. The public will send you encryptions and only you will have the private key which will only you can decrypt their 
+                                            encryptions.
+
+-Digital Signatures --
      
      
 
