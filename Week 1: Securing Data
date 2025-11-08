@@ -8,7 +8,11 @@ from Harvard's CS50 Introduction to Cybersecurity course
            stuffing.It is stored(password converted to hash) in the website's database when the user creates an account for the first time. Next time the user tries to log in again with the same password, the 
            website converts the password to hash using the same process when the user created the account and then compares the hash to the stored hash in their database with the respective username. This reduces 
            the risk of adversaries to attack our account. Using this method raises the bar for protection and lowers the bar for risk, but its not guarenteed that the adversary cannot get acces to your account.
-           This increases the work, energy and time for the adversary so that there are chances that he might lose interest in our account.
+           This increases the work, energy and time for the adversary so that there are chances that he might lose interest in our account. This is irreversible process. The hash value cannot be reversible by 
+           hashing.
+
+-Encryption--- Encryption is a way of scrambling information so that onl authorized people can see it. The information or plaintext is converted into a cipher text with help of a key only authorized people have.
+               The ciphertext can be decrypted by the authorized people who have the key.
 
 -Rainbow tables--- It is basically like a large database with vast information.The information can be very large like terabytes or even petabytes.The information here disscussed are a lot of passwords with their 
                    hashes which the adversary might have already converted. Here to have a rainbow table, he must have a lot of hard-drives which contain the information and also a lot of wealth and effort
@@ -42,8 +46,8 @@ from Harvard's CS50 Introduction to Cybersecurity course
      -Public/Asymmetric key cryptography -- The key is shared with the public. The public will send you encryptions and only you will have the private key which will only you can decrypt their 
                                             encryptions.
 
--Digital Signatures --
-     
+-Digital Signatures --- Lets say we have a message (which is some informaation which you want to sign in it) as an input, you convert them to hash values. Now we take the computed hash value and a 
+                        private key as inputs, the output will be known as the "Digital Signature".     
      
 
             
