@@ -1,1 +1,19 @@
+#WEEK 2: Securing Systems
+from harvard's CS50 : Introduction to cybersecurity course
 
+#SUMMARY:
+
+
+#Concepts learnt:
+ - HTTP: (Hypertext transfer protocol) -- This is a protocol/ a language that devices use to communicate in the WWW(World wide web) to exchange data over the internet
+
+ - Machine in the middle attacks -- The machine in the middle is a type of attack where an attacker secretly inserts themselves into a communication channel between two parties who believe they are 
+                                    communicating directly and privately. The adversary can then eavesdrop about your conversation or leak sensitive information/data and maybe even alter messages without
+                                    either of the parties knowing.
+
+ - Packet sniffing -- Packet sniffing is a process where an adversary intercepts the data packets as they travel across a computer network, basically eavesdropping the data packets as they travel acroos 
+                      a network.
+
+ - Cookies -- When you log in on any website nowadays, it shows you to allow or reject cookies. These cookies are basically used for the identification of the user from the system/device used.
+              If you accept cookies, they are installed in your system in the memory. Everytime you log in to the same website, this cookies act like a verification ticket to prove that the person who 
+              is logging in is actually the user.
