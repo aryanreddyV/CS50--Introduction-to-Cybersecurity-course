@@ -7,13 +7,33 @@ from harvard's CS50 : Introduction to cybersecurity course
 #Concepts learnt:
  - HTTP: (Hypertext transfer protocol) -- This is a protocol/ a language that devices use to communicate in the WWW(World wide web) to exchange data over the internet
 
+ - HTTPS: (Hypertext transfer protocol secure) -- This makes sure that data exchanges between two parties are encrypted and secure.
+
  - Machine in the middle attacks -- The machine in the middle is a type of attack where an attacker secretly inserts themselves into a communication channel between two parties who believe they are 
                                     communicating directly and privately. The adversary can then eavesdrop about your conversation or leak sensitive information/data and maybe even alter messages without
                                     either of the parties knowing.
 
- - Packet sniffing -- Packet sniffing is a process where an adversary intercepts the data packets as they travel across a computer network, basically eavesdropping the data packets as they travel acroos 
+ - Packet sniffing -- Packet sniffing is a process where an adversary intercepts the data packets as they travel across a computer network, basically eavesdropping the data packets as they travel across 
                       a network.
 
  - Cookies -- When you log in on any website nowadays, it shows you to allow or reject cookies. These cookies are basically used for the identification of the user from the system/device used.
               If you accept cookies, they are installed in your system in the memory. Everytime you log in to the same website, this cookies act like a verification ticket to prove that the person who 
               is logging in is actually the user.
+
+ -Session hijacking -- If the internet page which you are on, is just HTTP, then it is not encrypted. In this case an adversary may be listening or can even know the data in the data packets which you 
+                       interact with. To reduce this risk, we must check if the page is in HTTPS. If it is in HTTPS then it means that it is encrypted.
+
+ -Digital certificate -- It is like a public key. This is digitally signed by someone else who is a third party
+
+ -CA (Certificate Authority) -- They are the authorities for companies or organisations who shall digitally sign the certificates. The public key of the auhority and  signature as the inputs shall get 
+                                the hash value. The hash value must match the authority's value because then only we can confirm that the certificate has been digitally signed by the Certificate Authority
+
+ -SSL Stripping -- This is another type of attack where users think that they are secure connection and is encrypted but actually not. Worse yet, is that they might have secure connection with a 
+                   third party such as Machine in the middle. So this third party may eavesdrop or even respond back to the user and may even trick the user redirecting on another unsecured website.
+                   But just because there is HTTPS does not mean that it is secure. To take a step further The adversary may have bought a domain name very similar to the original and even have made it 
+                   secured, so this is the sneaky part here.
+
+ -HSTS (Hypertext strict transfer security) -- This is a type of security that secures the user by always redirectiong to HTTPS/ secured websites no matter what the user wants to do.
+
+ 
+ 
