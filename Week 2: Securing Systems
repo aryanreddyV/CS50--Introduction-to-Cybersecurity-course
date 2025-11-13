@@ -34,6 +34,53 @@ from harvard's CS50 : Introduction to cybersecurity course
                    secured, so this is the sneaky part here.
 
  -HSTS (Hypertext strict transfer security) -- This is a type of security that secures the user by always redirectiong to HTTPS/ secured websites no matter what the user wants to do.
+                                               If you visit the real secured website for the first time, then it will always make you visit only that website even if you tried to open that website. 
+                                               By doing this, this minimizes the window of opportinities for the adversary. But you must not open an unsecured website for the first time.
+
+ -VPN (Virtual private network) -- This is a powerful service that creates a secure and encrypted connection between the user and the remote server.
+
+ -Port -- The data packets on the outside have mentioned port numbers. These port numbers have numbers which only should redirect to a specific website.
+
+ -Port scanning -- Just like the brute force for the passwords, this is a method which tries all possible numbers for a server and then get access.
+
+ -Penetration testing -- This is like a skill or a technique used for good purposes hopefully. They (people who have this job) which is to try finding possible weaknesses on an infrastructure and can 
+                         even try removing or improving those weaknesses of your infrastructure before any adversary keeps an eye on you and they can be paid for their services.
+
+ -Ethical hacking -- This is like a legal adversary who does this for good/legal reasons.
+
+ -Firewall -- The name itself describes it a "wall" which keeps the data of the network inside to not going out and the outside data which prevents it from coming inside. It blocks the data traffic
+              from outside to coming inside, and data inside to going outside. But it allows only the important port numbers which are needed for the infrastructure.
+
+ -IP address -- This is like a mailing address for let's say every computer/internet device in the world. Every interent device has a unique IP address.
+
+ -Deep packet inspection -- This is like a deep inspection of the data packets which do inspection of the IP address and domain names and even the contents inside the data packets to check if there 
+                            are malwares or anything suspicious or malicious.
+
+ -Proxies -- A proxy is very similar to a firewall. It sits between the inside and outside of the network and decides whether to send the data packets outside of the network. In this case, the 
+             rejected data packets will be dropped or immediately deleted. The catch to this is that all the data traffic will be on this one point, and some prxies might not be real and secured.
+             They may have been injected by an adversary to the software and then sending the traffic to somehwhere else. These bad proxies can even create their own CA's and thsu it will be
+             dangerous.
+
+ -URL rewriting -- It is a web server technique that internally changes the address a user requests in their browser to a different, underlying address that the web application understands, without
+                   the user ever seeing the change in their address bar.
+
+ -MALWARE -- This is one of the most threatening softwares. Malware is like a malicious software which tries to do malicious things to your system.
+          1.Virus -- This type of malware attaches itself to the host. It enters to your system when the host opens an attachment that has been infected by the virus. 
+          2.Worm -- This is another type of worrisome malware which can travel from one computer to another without any human interaction.
+          3.Botnet -- A botnet is a network of internet-connected devices, each infected with specialized bot malware, that are remotely controlled by a single attacker.
+
+ -DoS (Denial of Service attack) -- It is a cyber attack intended to make a network service or website unavailable to its legitimate, intended users.
+
+ -Antivirus -- This is a software which should be installed in your computer or device to protect you from any viruses or worms and safely remove them. This software runs constantly in your system.
+               But for the antivirus to know that if there are any viruses or worms, it needs Automatic updates. By doing Automatic updates atleast ensures you that you are not vulnerable to 
+               problems of which exist.
+
+ -Zero day attacks -- Now this is like if an adversary writes their own new malware and unleashes it to the network of computers, the antivirus may not have enough time to update and by then
+                      our system might have been attacked.
+
+
+
+                                               
 
  
  
