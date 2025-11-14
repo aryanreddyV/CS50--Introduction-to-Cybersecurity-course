@@ -2,6 +2,10 @@
 from harvard's CS50 : Introduction to cybersecurity course
 
 #SUMMARY:
+How to secure systems
+Defenses
+Techniques
+Type of Malware and other attacks
 
 
 #Concepts learnt:
@@ -78,6 +82,11 @@ from harvard's CS50 : Introduction to cybersecurity course
  -Zero day attacks -- Now this is like if an adversary writes their own new malware and unleashes it to the network of computers, the antivirus may not have enough time to update and by then
                       our system might have been attacked.
 
+#ACTIONS COMPLETED: 
+-Understood the concepts from the lecture of Securing Systems
+-Understood the problems and solution in the lecture.
+-Finished the Assignment 2 : Securing Systems
+-Assigment 2: Securing Systems submission proof is available in the images folder of this repository itself.
 
 
                                                
